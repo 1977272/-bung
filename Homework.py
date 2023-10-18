@@ -1,13 +1,13 @@
 # Just doing the homework
-# FUnktion zur Erstellung der Frage nach dem Wetter
+# Function for making a question
 def check_weather(question):
     if question.lower() == "wie ist das wetter?":
-        return "Das Wetter ist hervorragend"
+        return "Das Wetter ist hervorragend. Da kann man nicht meckern"  # change
     else:
-        return "Lass mich in Ruhe."
+        return "Entschuldigung, ich habe das nicht verstanden."
 
 
-# Frage
+# Question
 question = input("Frage: ")
 answer = check_weather(question)
 print(answer)
